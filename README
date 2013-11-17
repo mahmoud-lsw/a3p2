@@ -4,6 +4,22 @@ Astro Particle Physics Python [A3P] II
 ============
 Introduction
 
+Astro Particle Physics Python II (A3PII) is a set of programs and tools
+to calculate the meta-galactic radiation fields and its attenuation effect
+on very high energy gamma-rays via forward folding from a star formation
+history and stellar evolution emission models.
+
+PLEASE NOTE: This is a legacy release. It is no longer developed further 
+and provided as is.
+
+If you are using this code for a publication please consider citing this
+work:
+
+  "Probing the peak of the star formation rate density with the extragalactic background light"
+  Raue, Martin; Meyer, Manuel
+  Monthly Notices of the Royal Astronomical Society, Volume 426, Issue 2, pp. 1097-1106.
+  http://adsabs.harvard.edu/abs/2012MNRAS.426.1097R
+
 ============
 Requirements
 
@@ -12,6 +28,9 @@ Required modules:
   - scipy
   - pyfits
   - matplotlib
+
+In addition spectra from stellar population modeling (e.g. Starburst 99)
+are needed as input for the EBL modeling.
 
 =======
 LICENSE
