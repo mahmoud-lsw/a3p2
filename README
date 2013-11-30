@@ -41,11 +41,11 @@ Make sure to fulfill the requirements.
 
 (1) Download a3p2 from github:
     - Create a directory for a3p2
-        mkdir <your_a3p2_directory>
+        $ mkdir <your_a3p2_directory>
     - Enter the directory
-        cd <your_a3p2_directory>
+        $ cd <your_a3p2_directory>
     - Clone from github
-        git clone git@github.com:mraue/a3p2.git
+        $ git clone git@github.com:mraue/a3p2.git
       or download and unzip
         https://github.com/mraue/a3p2/archive/master.zip
 
@@ -54,13 +54,13 @@ Make sure to fulfill the requirements.
 
 (3) Test the installation
     - Enter the installation directory
-        cd <your_a3p2_directory>
+        $ cd <your_a3p2_directory>
     - Test drawing the EBL limit collection:
-        python scripts/draw_ebl_measurements.py
+        $ python scripts/draw_ebl_measurements.py
       If everything went well you should see a plot with
       EBL limits. If not please check the output for errors.
     - Test the EBL model calculation:
-        python scripts/calculate_ebl_model.py config/TRY_ME_FIRST_EBL.cfg.py
+        $ python scripts/calculate_ebl_model.py config/TRY_ME_FIRST_EBL.cfg.py
       This should take some time to calculate. In the end you should
       end up with a plot of the EBL model.
       Run the script without command line parameters to see further options.
